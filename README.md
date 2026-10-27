@@ -3,7 +3,7 @@
 # Rahul Degra
 ### Backend & Applied Machine Learning Engineer
 
-[![Email](https://img.shields.io/badge/Email-rahuldegar28%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:rahuldegar28@gmail.com)
+[![Email](https://img.shields.io/badge/Email-rahuldegra789%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:rahuldegra789@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-rahuldegra1-181717?style=flat&logo=github&logoColor=white)](https://github.com/rahuldegra1)
 [![Portfolio](https://img.shields.io/badge/Portfolio-Explore-00C7B7?style=flat&logo=streamlit&logoColor=white)](https://github.com/rahuldegra1/portfolio_website)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/search/results/all/?keywords=Rahul%20Degra)
@@ -93,5 +93,5 @@
 ## 📬 Get in Touch
 
 - 💬 Let's talk backend architecture, Python systems, or machine learning pipelines!
-- 📧 Reach me directly at: **[rahuldegar28@gmail.com](mailto:rahuldegar28@gmail.com)**
+- 📧 Reach me directly at: **[rahuldegra789@gmail.com](mailto:rahuldegra789@gmail.com)**
 - 🌐 Explore all projects: **[github.com/rahuldegra1](https://github.com/rahuldegra1?tab=repositories)**
