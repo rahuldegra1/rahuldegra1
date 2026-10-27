@@ -81,11 +81,32 @@
 
 ---
 
-## 📈 Activity & Metrics
+## ⚙️ Engineering Standards & Delivery
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🏗️ Architecture & Backend Systems</h4>
+      <ul>
+        <li><strong>API Throughput:</strong> Asynchronous I/O via FastAPI & Uvicorn for scalable, low-latency endpoints.</li>
+        <li><strong>Data Validation:</strong> Strict schema contracts using <code>Pydantic v2</code> models and type hints.</li>
+        <li><strong>Database Layer:</strong> Structured relational schemas, indexing, and clean repository patterns.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🧪 MLOps & Machine Learning</h4>
+      <ul>
+        <li><strong>Inference Optimization:</strong> ONNX runtime acceleration and graph conversion for efficient model serving.</li>
+        <li><strong>Lifecycle Tracking:</strong> Metric, parameter, and artifact reproducibility using MLflow.</li>
+        <li><strong>Reliability:</strong> Modular design, automated testing, and clean error handling.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rahuldegra1&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rahuldegra1&layout=compact&theme=tokyonight&hide_border=true" width="48%" alt="Top Languages" />
+  <br />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rahuldegra1&theme=tokyonight&hide_border=true" alt="GitHub Streak Stats" />
 </div>
 
 ---
