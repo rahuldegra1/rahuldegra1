@@ -1,0 +1,59 @@
+name: Metrics
+on:
+  # Schedule updates once every 24 hours at midnight UTC
+  schedule: [{cron: "0 0 * * *"}]
+  # Allow manual trigger from the GitHub Actions tab
+  workflow_dispatch:
+  # Run automatically when changes are pushed to main
+  push: {branches: ["main"]}
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Core & Habits Metrics
+        uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics.svg
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          user: rahuldegra1
+          template: classic
+          base: header, activity, community, repositories, metadata
+          config_timezone: Asia/Kolkata
+
+          # Languages breakdown
+          plugin_languages: yes
+          plugin_languages_analysis_details: yes
+          plugin_languages_categories: markup, programming
+          plugin_languages_colors: github
+          plugin_languages_limit: 8
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_days: 14
+          plugin_languages_recent_load: 300
+          plugin_languages_sections: most-used
+          plugin_languages_threshold: 0%
+
+          # Coding habits & active hours
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+
+          # Lines of code
+          plugin_lines: yes
+          plugin_lines_history_limit: 1
+
+      - name: Isometric 3D Commit Calendar
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.isocalendar.svg
+          token: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          user: rahuldegra1
+          template: classic
+          base: ""
+          config_timezone: Asia/Kolkata
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
