@@ -5,7 +5,7 @@
 
 [![Email](https://img.shields.io/badge/Email-rahuldegra789%40gmail.com-D14836?style=flat&logo=gmail&logoColor=white)](mailto:rahuldegra789@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-rahuldegra1-181717?style=flat&logo=github&logoColor=white)](https://github.com/rahuldegra1)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Explore-00C7B7?style=flat&logo=streamlit&logoColor=white)](https://github.com/rahuldegra1/portfolio_website)
+[![Portfolio](https://img.shields.io/badge/Architecture-Portfolio-00C7B7?style=flat&logo=gitbook&logoColor=white)](https://github.com/rahuldegra1/developer-portfolio)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/search/results/all/?keywords=Rahul%20Degra)
 
 <p align="center">
@@ -77,12 +77,12 @@
 
 | Project | Tech Stack | Highlights & Architecture |
 | :--- | :--- | :--- |
-| [**Auraflow**](https://github.com/rahuldegra1/auraflow) | `FastAPI` · `gRPC` · `PostgreSQL` · `Redis` · `Docker` | Distributed asynchronous DAG workflow execution engine featuring centralized orchestration, worker task dispatching, and relational run persistence. |
+| [**Auraflow**](https://github.com/rahuldegra1/auraflow) | `FastAPI` · `gRPC` · `PostgreSQL` · `Redis` · `Docker` | Distributed heterogeneous DAG engine with dynamic GPU batching (2.87x lower latency), atomic PostgreSQL SKIP LOCKED leases, and gRPC streaming. |
 | [**Deep Learning & Vision Lab**](https://github.com/rahuldegra1/deep_learning_lab) | `PyTorch` · `CUDA` · `ONNX` · `CLIP` · `YOLOv11` | End-to-end vision lab featuring ResNet-18 fine-tuning, ONNX Runtime latency benchmarking, CLIP visual search with ChromaDB, and YOLOv11 inference. |
 | [**Local AI Agent Router**](https://github.com/rahuldegra1/Local-System-One-Router) | `Python` · `Qwen2.5` · `LLaVA` · `Ollama` | Local agentic routing pipeline orchestrating open-weight vision/text models with UI automation runtimes for system-level task execution. |
 | [**MLflow Tracking Lab**](https://github.com/rahuldegra1/mlflow_tracking) | `MLflow` · `scikit-learn` · `Python` · `Docker` | Systematic MLOps pipeline tracking hyperparameter experiments, evaluation metrics, and reproducible model artifact registries. |
-| [**Lead Ingestion Microservice**](https://github.com/rahuldegra1/capstone_project) | `FastAPI` · `SQLAlchemy` · `PostgreSQL` · `Prometheus` | Production-ready microservice with strict Pydantic validation, custom token bucket rate-limiting, Prometheus metrics, and automated CI pipelines. |
-| [**Algorithms & Core CS**](https://github.com/rahuldegra1/learning_journal) | `Data Structures` · `Algorithms` · `C` · `Python` | Optimized implementations of core data structures, algorithms (NeetCode 75), and systems fundamentals. |
+| [**Lead Ingestion Microservice**](https://github.com/rahuldegra1/lead-ingestion-service) | `FastAPI` · `SQLAlchemy` · `PostgreSQL` · `Prometheus` | Hardened microservice featuring constant-time API security (secrets.compare_digest), composite B-Tree indexes, SlowAPI rate-limiting, and automated CI/CD tests. |
+| [**Algorithms & Core CS**](https://github.com/rahuldegra1/python-foundations) | `Data Structures` · `Algorithms` · `C` · `Python` | Optimized implementations of core data structures, algorithms (NeetCode 75), and systems fundamentals. |
 
 ---
 
