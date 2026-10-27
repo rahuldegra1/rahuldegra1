@@ -111,7 +111,9 @@
 
 <div align="center">
   <br />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rahuldegra1&theme=tokyonight&hide_border=true" alt="GitHub Streak Stats" />
+  <img src="github-metrics.svg" alt="Metrics, Languages & Coding Habits" width="96%" />
+  <br /><br />
+  <img src="metrics.plugin.isocalendar.svg" alt="3D Isometric Commit Calendar" width="96%" />
 </div>
 
 ---
